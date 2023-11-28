@@ -1,0 +1,43 @@
+{
+  "name": "handprint",
+  "description": "Patented user handprinting library. Requires a handprintjs.com account",
+  "version": "0.1.0",
+  "keywords": [
+    "compliance",
+    "fraud",
+    "fraud detection",
+    "fraud prevention",
+    "browser",
+    "identification",
+    "fingerprint",
+    "fingerprinting",
+    "handprint",
+    "handprinting",
+    "legal",
+    "browser fingerprint",
+    "device fingerprint",
+    "privacy",
+    "tracking"
+  ],
+  "author": "https://handprintjs.com",
+  "license": "BUSL-1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/handprintjs/handprintjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/handprintjs/handprintjs/issues"
+  },
+  "homepage": "https://github.com/handprintjs/handprintjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "/dist"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
