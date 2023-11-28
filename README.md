@@ -10,6 +10,8 @@ npm i handprintjs
 
 ## Usage
 ```javascript
+import { handprint } from 'handprintjs';
+
 // Required: initialize the library
 // Note: you can find your handprint endpoint by logging into your account
 handprint.load('https://your-handprint-endpoint/js');
